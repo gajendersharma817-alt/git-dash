@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zyrokart🛒 Site</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo">Zyrokart🛒</div>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search for products, brands and more">
+                <button id="search-btn">🔍</button>
+            </div>
+            <div class="user-actions">
+                <a href="#" id="login">Login</a>
+                <a href="#" id="cart">Cart <span id="cart-count">0</span></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Home & Furniture</a></li>
+                <li><a href="#">Appliances</a></li>
+                <li><a href="#">Beauty & Personal Care</a></li>
+                <li><a href="#">Sports & Fitness</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="carousel">
+            <img src="https://via.placeholder.com/1200x400?text=Big+Sale+50%+Off" alt="Deal 1" class="active">
+            <img src="https://via.placeholder.com/1200x400?text=Electronics+Deals" alt="Deal 2">
+            <img src="https://via.placeholder.com/1200x400?text=Fashion+Week" alt="Deal 3">
+        </div>
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+    </section>
+
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category">
+                <img src="https://via.placeholder.com/200x200?text=Mobiles" alt="Mobiles">
+                <p>Mobiles</p>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/200x200?text=Laptops" alt="Laptops">
+                <p>Laptops</p>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/200x200?text=Clothing" alt="Clothing">
+                <p>Clothing</p>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/200x200?text=Home+Decor" alt="Home Decor">
+                <p>Home Decor</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="filters">
+            <h2>Products</h2>
+            <select id="sort">
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="rating">Rating</option>
+            </select>
+        </div>
+        <div class="product-grid" id="product-list">
+            <!-- Products will be dynamically added via JS -->
+        </div>
+    </section>
+
+    <section class="deals">
+        <h2>Today's Deals</h2>
+        <div class="deal-grid">
+            <div class="deal">
+                <img src="https://via.placeholder.com/300x300?text=Smartphone+Deal" alt="Smartphone">
+                <p>Smartphone - 30% Off</p>
+                <span>$299</span>
+            </div>
+            <div class="deal">
+                <img src="https://via.placeholder.com/300x300?text=Laptop+Deal" alt="Laptop">
+                <p>Laptop - 20% Off</p>
+                <span>$799</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Quick View -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-img" src="" alt="">
+            <h3 id="modal-title"></h3>
+            <p id="modal-price"></p>
+            <button id="add-to-cart-modal">Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <div>
+                <h4>About</h4>
+                <a href="#">Contact Us</a>
+                <a href="#">Careers</a>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <a href="#">Payments</a>
+                <a href="#">Shipping</a>
+            </div>
+            <div>
+                <h4>Follow Us</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        
+        <p>&copy; 2023 Zyrokart🛒. All rights reserved.</p>
+    </footer>
+
+    <script src="web.js"></script>
+</body>
+</html>
+
+
+
+
+
