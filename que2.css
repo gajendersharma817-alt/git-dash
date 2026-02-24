@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+.header div a{
+    color: white;
+    padding-right:20px;
+    text-decoration: none;
+}
+
+.header div h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.main-section{
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.UuDi5y057jpnfrbTEfHYlgHaEK?pid=Api&P=0&h=180");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(6,5,5,0.4);
+}
+
+.overlay p {
+    margin: 1rem 2rem;
+}
+
+.button{
+    background-color: aquamarine;
+    padding: 0.5rem;
+border:1rem;
+border-radius: 0.5rem;
+}
+.cards{
+    display: flex;
+  border-radius: 1rem;
+    background-color:aliceblue;
+    padding: 2rem 4rem;
+}
+.card1{
+background-color:rgb(91, 211, 232);
+border-radius: 2rem;
+padding: 0 3rem;
+ box-shadow: 5px 5px 10px gray;
+}
+.cards p{
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+.card2{
+margin-left: 3rem;
+}
+.card3{
+    padding: 1 3rem;
+    background:linear-gradient(rgb(254, 254, 254));
+    font-size: x-large;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px gray;
+}
+.project{
+padding:0 125px;
+font-size: large;
+}
+
+.abcd{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:1.5rem 3rem;
+    gap: 2rem;
+    border-radius: 1rem;
+}

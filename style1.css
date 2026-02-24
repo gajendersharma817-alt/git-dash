@@ -1,0 +1,19 @@
+h1{
+    color:black;
+ background-color:aqua;
+ margin: 70px;
+ height: 50%;
+ font-size: 3rem;
+ border: 4px dashed green;
+ width: 100vw;
+ padding: 10px;
+}
+.box{height: 60px;width: 100px;
+background-color:aqua;
+margin: 50px;}
+body{
+    background-color:black;
+}
+div{
+    background-color: black;
+}
